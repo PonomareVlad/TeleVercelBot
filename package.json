@@ -4,7 +4,7 @@
   "author": "PonomareVlad",
   "scripts": {
     "dev": "vc dev",
-    "tunnel": "vc dev & lt --port 3000"
+    "tunnel": "lt --port 3000 & vc dev"
   },
   "dependencies": {
     "telebot": "latest"
