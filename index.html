@@ -8,14 +8,13 @@
 </head>
 <body>
 <form name="webhook" action="/api/setWebhook.mjs" method="post">
-    <fieldset>
-        <legend>Set WebHook URL</legend>
-        <input name="url" type="url" placeholder="https://domain.tld/telegram" size="37" title="WebHook URL">
-        <button type="submit">Set WebHook URL</button>
-    </fieldset>
+    <span style="opacity: .7;">Press button, if you want set webhook url to host:</span>
+    <output id="host">localhost</output>
+    <br><br>
+    <button type="submit">Set WebHook URL</button>
 </form>
 </body>
 <script>
-    document.forms.webhook.elements.url.value = new URL('/api/telegram.mjs', location.href)
+    document.getElementById('host').innerText = location.host
 </script>
 </html>

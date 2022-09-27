@@ -32,3 +32,5 @@ Now you can make some changes in [bot.mjs](bot.mjs)
 
 - [api/telegram.mjs](api/telegram.mjs) — Endpoint function for WebHooks
 - [api/setWebhook.mjs](api/setWebhook.mjs) — Function for setting WebHook URL
+
+###### P.S. Don't forget to remove or restrict [api/setWebhook.mjs](api/setWebhook.mjs) function before going to production

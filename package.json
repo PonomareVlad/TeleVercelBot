@@ -1,12 +1,13 @@
 {
   "name": "telebot-vercel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "PonomareVlad",
   "scripts": {
     "dev": "vc dev",
     "tunnel": "lt --port 3000 & vc dev"
   },
   "dependencies": {
-    "telebot": "latest"
+    "telebot": "latest",
+    "telebot-vercel": "latest"
   }
 }
