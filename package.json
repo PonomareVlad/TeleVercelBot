@@ -4,7 +4,8 @@
   "author": "PonomareVlad",
   "scripts": {
     "dev": "vc dev",
-    "tunnel": "lt --port 3000 & vc dev"
+    "dev-with-tunnel": "npm run tunnel & npm run dev",
+    "tunnel": "cloudflared tunnel --url http://localhost:3000"
   },
   "dependencies": {
     "telebot": "^1.4.1",

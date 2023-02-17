@@ -4,25 +4,24 @@
 
 ### Run locally
 
-Install Vercel CLI
+1. Install Vercel CLI
 
 ```bash
 npm i -g vercel
 ```
 
-Install Localtunnel
+2.
+Install [CloudFlare tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/do-more-with-tunnels/trycloudflare/) (`cloudflared`)
+
+[Download link](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation/)
+
+3. Then run local dev server with tunnel
 
 ```bash
-npm i -g localtunnel
+npm run dev-with-tunnel
 ```
 
-Then run local dev server with Localtunnel
-
-```bash
-npm run tunnel
-```
-
-And open link from terminal (ends with `*.loca.lt`) to set WebHook
+And open link from terminal (ends with `*.trycloudflare.com`) to set WebHook
 
 Now you can make some changes in [bot.mjs](bot.mjs)
 
