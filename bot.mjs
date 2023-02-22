@@ -4,6 +4,6 @@ const bot = new TeleBot(process.env.5610303721:AAFOAKOR5XyZrNi7dXFdjJ5xbKRFyVdc_
 
 bot.on('text', msg => msg.reply.text(msg.text))
 
-bot.on(['/start', '/hello'], (msg) => msg.reply.text('Банжорно Бамбини>'));
+bot.on(['/start'], (msg) => msg.reply.text('Банжорно Бамбини>'));
 
 export default bot
