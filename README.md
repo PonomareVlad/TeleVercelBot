@@ -4,24 +4,25 @@
 
 ### Run locally
 
-1. Install Vercel CLI
+#### 1. Install [Vercel CLI](https://vercel.com/docs/cli)
 
 ```bash
 npm i -g vercel
 ```
 
-2.
-Install [CloudFlare tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/do-more-with-tunnels/trycloudflare/) (`cloudflared`)
+#### 2. Install [VK Tunnel](https://dev.vk.com/libraries/tunnel)
 
-[Download link](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation/)
+```bash
+npm i -g @vkontakte/vk-tunnel
+```
 
-3. Then run local dev server with tunnel
+#### 3. Then run local dev server with tunnel
 
 ```bash
 npm run dev-with-tunnel
 ```
 
-And open link from terminal (ends with `*.trycloudflare.com`) to set WebHook
+And open link from terminal (ends with `*.wormhole.vk-apps.com`) to set WebHook
 
 Now you can make some changes in [bot.mjs](bot.mjs)
 
