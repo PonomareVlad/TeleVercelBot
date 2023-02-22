@@ -9,6 +9,6 @@
   },
   "dependencies": {
     "telebot": "npm:@ponomarevlad/telebot@1.4.1-edge.1",
-    "telebot-vercel": "0.0.8"
+    "telebot-vercel": "0.0.9"
   }
 }
