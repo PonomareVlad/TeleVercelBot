@@ -8,7 +8,7 @@
     "tunnel": "cloudflared tunnel --url http://localhost:3000"
   },
   "dependencies": {
-    "telebot": "^1.4.1",
-    "telebot-vercel": "0.0.5"
+    "telebot": "npm:@ponomarevlad/telebot@1.4.1-edge.1",
+    "telebot-vercel": "0.0.8"
   }
 }
