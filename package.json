@@ -9,6 +9,6 @@
   },
   "dependencies": {
     "telebot": "^1.4.1",
-    "telebot-vercel": "0.0.5"
+    "telebot-vercel": "0.0.9"
   }
 }
