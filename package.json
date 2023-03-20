@@ -9,7 +9,10 @@
     "tunnel": "cloudflared tunnel --url http://localhost:3000"
   },
   "dependencies": {
-    "telebot": "npm:@ponomarevlad/telebot@1.4.1-edge.2",
+    "telebot": "npm:@ponomarevlad/telebot@edge",
     "telebot-vercel": "^1.0.1"
+  },
+  "overrides": {
+    "telebot": "npm:@ponomarevlad/telebot@edge"
   }
 }
