@@ -1,6 +1,6 @@
-import {start} from 'telebot-vercel'
-import bot from '../bot.mjs'
+import {start} from "telebot-vercel"
+import bot from "../bot.mjs"
 
-export const config = {runtime: 'edge'}
+export const config = {runtime: "edge"}
 
-export default start(bot)
+export default start({bot})

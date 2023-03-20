@@ -1,7 +1,8 @@
 {
   "name": "telebot-vercel-template",
-  "version": "1.0.2",
-  "author": "PonomareVlad",
+  "author": "Vladislav Ponomarev <PonomareVlad@users.noreply.github.com> (https://PonomareVlad.ru)",
+  "funding": "https://PonomareVlad.ru/donate",
+  "license": "MIT",
   "scripts": {
     "dev": "vc dev",
     "dev-with-tunnel": "npm run tunnel & npm run dev",
@@ -9,6 +10,6 @@
   },
   "dependencies": {
     "telebot": "npm:@ponomarevlad/telebot@1.4.1-edge.2",
-    "telebot-vercel": "0.0.9"
+    "telebot-vercel": "^1.0.1"
   }
 }
