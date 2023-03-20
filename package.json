@@ -6,22 +6,13 @@
   "scripts": {
     "dev": "vc dev",
     "dev-with-tunnel": "npm run tunnel & npm run dev",
-    "tunnel": "vk-tunnel --insecure=1 --port=3000 --timeout=60000"
+    "tunnel": "cloudflared tunnel --url http://localhost:3000"
   },
   "dependencies": {
     "telebot": "^1.4.1",
     "telebot-vercel": "^1.0.1"
   },
-  "peerDependencies": {
-    "@vkontakte/vk-tunnel": "latest",
-    "vercel": "latest"
-  },
-  "peerDependenciesMeta": {
-    "vercel": {
-      "optional": true
-    },
-    "@vkontakte/vk-tunnel": {
-      "optional": true
-    }
+  "engines": {
+    "node": "^18.0.0"
   }
 }
