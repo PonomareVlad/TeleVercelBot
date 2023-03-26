@@ -14,5 +14,8 @@
   },
   "overrides": {
     "telebot": "npm:@ponomarevlad/telebot@edge"
+  },
+  "engines": {
+    "node": "^18.0.0"
   }
 }
