@@ -24,7 +24,7 @@ npm run dev-with-tunnel
 
 And open link from terminal (ends with `*.trycloudflare.com`) to set WebHook
 
-Now you can make some changes in [bot.mjs](bot.mjs)
+Now you can make some changes in [src/bot.mjs](src/bot.mjs)
 
 [Documentation for TeleBot](https://github.com/mullwar/telebot)
 
